@@ -293,3 +293,22 @@ footer{
     text-align:center;
 }
 
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    header{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+}
